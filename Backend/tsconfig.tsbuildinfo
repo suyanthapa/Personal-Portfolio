@@ -1,0 +1,1 @@
+{"root":["./src/ienv.ts","./src/connect.ts","./src/server.ts","./src/controllers/portfoliocontroller.ts","./src/routes/mainroute.ts","./src/services/mailer.ts"],"version":"5.8.3"}
