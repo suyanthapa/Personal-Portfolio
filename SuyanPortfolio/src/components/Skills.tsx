@@ -20,6 +20,8 @@ const Skills: React.FC = () => {
   );
 
   return (
+
+    <div id="skills">
     <section className="bg-[#0F172A] text-white py-12 px-4">
       <h2 className="text-center text-3xl font-bold mb-12">
         My <span className="text-blue-500">Skills</span>
@@ -31,6 +33,7 @@ const Skills: React.FC = () => {
         {renderSkillList('Web Technologies', skills.webTechnologies)}
       </div>
     </section>
+    </div>
   );
 };
 

@@ -3,37 +3,29 @@ import React from 'react';
 const data = {
   education: [
     {
-      year: '2017 - 2018',
-      title: 'Master Degree - University',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquam soluta vero iure. Expedita quo aut delectus modi totam possimus.',
-    },
-    {
-      year: '2018 - 2019',
-      title: 'Master Degree - University',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquam soluta vero iure. Expedita quo aut delectus modi totam possimus.',
+      year: 'Under Gratuate',
+      title: 'Bachelor Degree - LA GRANDEE International College',
+      description: '  Pursuing a Bachelor’s degree in Computer Applications (BCA) with a focus on software development and database management.',
     },
     {
       year: '2019 - 2020',
-      title: 'Master Degree - University',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquam soluta vero iure. Expedita quo aut delectus modi totam possimus.',
+      title: 'High School - Motherland Secondary School',
+      description: 'Focus on Management and Computer Science, developing a blend of business acumen and fundamental programming knowledge.',
+    },
+    {
+      year: '2018',
+      title: 'SEE ( Secondary Education Examination ) - Evergreen English  Boarding School',
+      // description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquam soluta vero iure. Expedita quo aut delectus modi totam possimus.',
     },
   ],
   experience: [
     {
-      year: '2017 - 2018',
-      title: 'Web Developer - Company',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquam soluta vero iure. Expedita quo aut delectus modi totam possimus.',
+      year: '2025',
+      title: '  Intern - Full Stack  Developer - Brand Builder',
+      description: 'Full Stack Developer Intern at BrandBuilder, developing RESTful APIs with Node.js, Express.js, and TypeScript, managing databases with MongoDB, and creating cross-platform mobile applications using React Native.',
     },
-    {
-      year: '2018 - 2019',
-      title: 'Web Developer - Company',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquam soluta vero iure. Expedita quo aut delectus modi totam possimus.',
-    },
-    {
-      year: '2019 - 2020',
-      title: 'Web Developer - Company',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquam soluta vero iure. Expedita quo aut delectus modi totam possimus.',
-    },
+    
+    
   ]
 };
 

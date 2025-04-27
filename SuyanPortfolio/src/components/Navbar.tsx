@@ -12,7 +12,7 @@ const Navbar = () => {
         >
           Suyan
         </a>
-
+    
         {/* Hamburger Button (mobile only) */}
         <button
           className="sm:hidden text-white"
@@ -26,8 +26,8 @@ const Navbar = () => {
           <a href="#home" className="hover:text-[#00abf0] transition">Home</a>
           <a href="#myJourney" className="hover:text-[#00abf0] transition">My Journey</a>
           <a href="#skills" className="hover:text-[#00abf0] transition">Skills</a>
-          <a href="#services" className="hover:text-[#00abf0] transition">Services</a>
-          <a href="#portfolio" className="hover:text-[#00abf0] transition">Portfolio</a>
+          {/* <a href="#services" className="hover:text-[#00abf0] transition">Services</a> */}
+          {/* <a href="#portfolio" className="hover:text-[#00abf0] transition">Portfolio</a> */}
           <a href="#contact" className="hover:text-[#00abf0] transition">Contact</a>
         </nav>
       </div>
@@ -38,8 +38,8 @@ const Navbar = () => {
           <a href="#home" className="hover:text-[#00abf0] transition">Home</a>
           <a href="#myJourney" className="hover:text-[#00abf0] transition">My Journey</a>
           <a href="#skills" className="hover:text-[#00abf0] transition">Skills</a>
-          <a href="#services" className="hover:text-[#00abf0] transition">Services</a>
-          <a href="#portfolio" className="hover:text-[#00abf0] transition">Portfolio</a>
+          {/* <a href="#services" className="hover:text-[#00abf0] transition">Services</a> */}
+          {/* <a href="#portfolio" className="hover:text-[#00abf0] transition">Portfolio</a> */}
           <a href="#contact" className="hover:text-[#00abf0] transition">Contact</a>
         </div>
       )}
