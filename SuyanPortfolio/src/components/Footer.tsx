@@ -1,26 +1,37 @@
-const Footer = () => {
-    return (
-        <div id="Footer" >
-            <div className="text-black bg-pink-100 text-center p-5">
-                <h1 className=" text-3xl font-black">Let's make something great together.</h1>
-                <p className=" mt-7  text-xl text-bold ">Have a project you would like to dicsuss?  <span className="underline"> Get in touch for a quick note</span></p>
-            </div>
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-            <div className="bg-[#0a2340] text-center p-8 text-white flex flex-col gap-10">
-                <h1 className="text-bold font-white text-3xl">Suyan Thapa , Full Stack Developer</h1>
-                <nav className="flex justify-center">
-                    <ul className="flex gap-15">
-                    <a href="#home">Home</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#contact">Contact</a>
-                    </ul>
-                    
-                </nav>
-            </div>
+const Footer = () => {
+  return (
+    <footer id="Footer">
+      {/* Top Section */}
+      <div className="bg-pink-100 text-black text-center p-10">
+        <h1 className="text-4xl font-extrabold">Let's make something great together.</h1>
+        <p className="mt-6 text-lg font-semibold">
+          Have a project you would like to discuss?{' '}
+          <span className="underline cursor-pointer hover:text-pink-600">Get in touch</span>
+        </p>
       </div>
-      
-    );
-  }
-  
-  export default Footer;
-  
+
+      {/* Bottom Section */}
+      <div className="bg-[#0a2340] text-white text-center p-8 flex flex-col gap-6">
+        <div className="flex justify-center gap-8 text-3xl">
+          <a href="https://www.facebook.com/suyan.thapa.2025/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <FaFacebook />
+          </a>
+          <a href="https://www.instagram.com/suyantm_/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <FaInstagram />
+          </a>
+          <a href="https://www.linkedin.com/in/suyan-thapa-8b6895291/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com/suyanthapa" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+            <FaGithub />
+          </a>
+        </div>
+        <p className="text-sm text-gray-400">© {new Date().getFullYear()} All rights reserved.</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

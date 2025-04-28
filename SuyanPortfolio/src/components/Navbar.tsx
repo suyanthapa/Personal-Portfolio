@@ -7,7 +7,7 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full z-50 bg-[#081b29] text-white shadow-md">
       <div className="flex justify-between items-center py-5 px-8">
         <a
-          href="https://www.instagram.com/suyantm_/"
+          href="https://github.com/suyanthapa"
           className="text-lg font-extrabold"
         >
           Suyan
